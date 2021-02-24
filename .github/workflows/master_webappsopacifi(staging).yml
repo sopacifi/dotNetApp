@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'webappsopacifi'
         slot-name: 'staging'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3836a02f5e1c471e830542d066381e18 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2dc54c0cfd5a464bb28c107ad36dc8f1 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
